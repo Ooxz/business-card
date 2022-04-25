@@ -1,0 +1,153 @@
+html {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	color: #fff;
+	background-color: #23252C;
+	max-width: 317px;
+	font-family: 'Inter', sans-serif;
+}
+
+/* info.js begin*/
+.info-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	background-color: #1A1B21;
+}
+
+.photo {
+	width: 317px;
+	height: 317px;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	border-radius: 6px 6px 0 0;
+}
+
+.name {
+	font-size: 25px;
+	font-weight: bold;
+	margin-top: 10px;
+	line-height: 30px;
+	margin-top: 21px;
+	margin-bottom: 6px;
+}
+
+.job {
+	font-size: 13px;
+	font-weight: 400;
+	margin-top: 0;
+	line-height: 15px;
+	color: #F3BF99;
+	margin-bottom: 9px;
+}
+
+.website {
+	font-size: 10px;
+	font-weight: 400;
+	margin-top: 0;
+	line-height: 15px;
+	color: #F5F5F5;
+}
+
+.mail-button {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	margin-top: 16px;
+	margin-bottom: 0;
+	width: 247px;
+	height: 34px;
+	font-size: 14px;
+	font-weight: 500;
+	line-height: 16px;
+	border-radius: 6px;
+	border: none;
+}
+
+.mail-icon {
+	width: 13px;
+	height: 10px;
+	margin-right: 10px;
+}
+/* info.js end*/
+
+/* about.js begin */
+.about-container {
+	display: flex;
+	flex-direction: column;
+	background-color: #1A1B21;
+	padding: 32px 35px 0 35px;
+	color: #F5F5F5;
+}
+
+.about-title {
+	font-size: 16px;
+	font-weight: 700;
+	margin-top: 0;
+	line-height: 24px;
+	margin-bottom: 5px;
+	color: #F5F5F5;
+}
+
+.about-paragraph {
+	font-size: 10px;
+	font-weight: 400;
+	line-height: 15px;
+	margin-bottom: 0;
+	color:#DCDCDC;
+	margin-top: 0;
+}
+	
+
+/* about.js end*/
+
+/* interests.js begin*/
+.interests-container {
+	display: flex;
+	flex-direction: column;
+	background-color: #1A1B21;
+	padding: 20px 35px;
+	color: #F5F5F5;
+	margin-top: 0;
+}
+
+.interests-title {
+	font-size: 16px;
+	font-weight: 700;
+	margin-top: 0;
+	line-height: 24px;
+	margin-bottom: 5px;
+	color: #F5F5F5;
+}
+
+.interests-paragraph {
+	font-size: 10px;
+	font-weight: 400;
+	line-height: 15px;
+	margin-bottom: 16px;
+	color:#DCDCDC;
+	margin-top: 0;
+}
+/* interests.js end*/
+
+/* footer.js begin */
+.footer-container {
+	display: flex;
+	justify-content: space-between;
+	background-color: #161619;
+	padding: 20px 50px;
+	margin-top: 0;
+	border-radius: 0 0 6px 6px;
+}
+
+/* footer.js end */
